@@ -6,8 +6,8 @@ $(function(){
 
 
 		$('html,body').animate({'scrollTop':offSetTop});
-		$('nav a').css('color','black');
-		$(this).css('color','red');
+		$('nav a').css('color','white');
+		$(this).css('color','black');
 		return false;
 	});
 
