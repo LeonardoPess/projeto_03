@@ -1,0 +1,614 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+/*------Padrão------*/
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+/*------Padrão-Fim------*/
+
+/*------Header-1------*/
+header{
+	min-height: 800px;
+	font-weight: 300;
+	padding: 30px 2%;
+	width: 100%;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../images/capa.png);
+}
+
+header .logo{
+	float: left;
+	position: relative;
+	top: -4px;
+}
+
+.logo a img{
+	width: 180px;
+}
+
+header nav{
+	float: right;
+}
+
+nav.mobile-menu{
+	display: none;
+	margin-top: -18px;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/menu.png);
+	background-size: cover;
+}
+
+nav.mobile-menu ul{
+	display: none;
+	background-color: white;
+	left: 0;
+	top: 70px;
+	position: absolute;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.mobile-menu ul li{
+	border-bottom: 1px solid black;
+	transition: 0.7s;
+	padding: 8px 0;
+}
+
+nav.mobile-menu ul li:hover{
+	background-color: rgb(220,220,220);
+}
+
+nav.mobile-menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+header nav.desktop-menu ul{
+	list-style-type: none;
+}
+
+header nav.desktop-menu li{
+	float: left;
+	margin: 0 20px;
+}
+
+header nav.desktop-menu ul a{
+	text-decoration: none;
+	color: white;
+}
+
+.chamada1{
+	max-width: 600px;
+	float: right;
+	margin: 140px 160px;
+}
+
+.chamada1 h2{
+	font-size: 40px;
+	color: white;
+	font-weight: 300;
+}
+
+.chamada1 p{
+	font-size: 15px;
+	margin-top: 17px;
+	color: white;
+}
+/*------FIM-Header-1------*/
+
+/*------SECTION1------*/
+section.section1{
+	width: 100%;
+	height: 400px;
+	padding: 0 2%;
+	background-color: #472562;
+}
+
+section.section1 .container{
+	max-width: 1024px;
+	height: calc(100% + 30px);
+}
+
+.text-section1{
+	position: relative;
+	left: 55px;
+	float: left;
+	color: white;
+	width: 50%;
+	margin-top: 60px;
+	padding-left: 80px;
+}
+
+.text-section1 h2{
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.text-section1 p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.text-section1 ul{
+	font-size: 15px;
+	list-style-position: outside;
+	padding-left: 15px;
+}
+
+.text-section1 ul li{
+	margin-top: 8px;
+	width: 100%;
+}
+
+.botao1{
+	background-color: #FF703D;
+	font-size: 14px;
+	width: 165px;
+	height: 44px;
+	cursor: pointer;
+	color: white;
+	margin-top: 30px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 44px;
+}
+
+.device-section1{
+	float: left;
+	width: 50%;
+	position: relative;
+	top: -30px;
+	height: 100%;
+	background-image: url('../images/device.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*------FIM DO SECTION1------*/
+
+/*------SECTION2------*/
+
+.section2{
+	padding: 0 2%;
+	background-color: white;
+	text-align: center;
+}
+
+.section2 .container{
+	max-width: 1024px;
+}
+
+.section2 h2{
+	margin-top: 40px;
+	color: #472663;
+	font-weight: 300;
+}
+
+.section2 p{
+	padding-top: 30px;
+	max-width: 900px;
+	display: inline-block;
+}
+
+.section2 img{
+	position: relative;
+	top: 70px;
+	margin-top: 10px;
+	width: 100%;
+}
+/*------FIM DA SECTION2------*/
+
+/*------SECTION3------*/
+.section3{
+	width: 100%; 
+}
+
+.part1{
+	color: white;
+	float: left;
+	width: 50%;
+	padding:140px 0 90px 0;
+	background: #835FA7;
+}
+
+.wraper-part1{
+	max-width: 600px;
+	float: right;
+	padding:0 30px;
+}
+
+.part1 h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.part1 p{
+	font-size: 15px;
+	line-height: 35px;
+	margin-top:10px;
+}
+
+.part2{
+	float: left;
+	width: 50%;
+	padding:140px 0 90px 0;
+	background: white;
+}
+
+.scrollEquipe{
+	max-width: 600px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.scroll-wraper{
+	width: 100%;
+}
+
+.sobre-autor{
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.titulo-autor{
+	float: left;
+	width: 100%;
+}
+
+.wraper-titulo-autor{
+	float: left;
+}
+
+.titulo-autor h2{
+	color: #232323;
+	font-weight: 400;
+	font-size: 21px;
+	padding-right: 20px;
+}
+
+.titulo-autor p{
+	font-size: 13px;
+	color: #232323;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.titulo-autor .img-autor{
+	float: left;
+	width: 40px;
+	height:40px;
+	background-image: url('../images/actor1.png');
+	background-size: 100% 100%;
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+.texto-autor{
+	float: left;
+	width: 100%;
+	margin-top:10px;
+}
+
+.texto-autor p{
+	color: #232323;
+	font-size: 15px;
+}
+
+.slider-bullets{
+	width: 100%;
+	float: left;
+	padding-left: 40px;
+	margin-top:12px;
+}
+
+.slider-bullets span{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 8px;
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: rgb(200,200,200);
+}
+/*------FIM DA SECTION3------*/
+
+/*------SECTION4------*/
+section.section4{
+	background-color: #472563;
+	padding: 100px 0;
+}
+
+.form{
+	padding-left: 10px;
+	float: left;
+	width: 50%;
+	color: white;
+}
+
+.form h2{
+	font-weight: 300;
+	font-size: 23px;
+}
+
+.form p{
+	font-size: 15px;
+	font-weight: 300;
+	max-width: 400px;
+	padding-right: 15px;
+}
+
+.form form{
+	margin-top: 15px;
+}
+
+.form form input[type=text], .form form input[type=email]{
+	width: 90%;
+	max-width: 480px;
+	height: 40px;
+	padding-left: 8px;
+	line-height: 58px;
+	border: 1px solid rgb(200,200,200);
+	margin-top: 8px;
+	outline: none;
+}
+
+.form form textarea{
+	width: 90%;
+	max-width: 480px;
+	padding: 15px;
+	border: 1px solid rgb(200,200,200);
+	height: 160px;
+	margin-top: 8px;
+	outline: none;
+}
+
+.form form input[type=submit]{
+	background-color: #FF703D;
+	font-size: 14px;
+	width: 165px;
+	height: 44px;
+	cursor: pointer;
+	color: white;
+	margin-top: 18px;
+	border-radius: 20px;
+	border: 0;
+}
+
+.map-wraper{
+	float: left;
+	width: 50%;
+	color: white;
+	padding: 0 10px;
+}
+
+.map-wraper h2{
+	font-weight: 300;
+	font-size: 23px;
+}
+
+.map-wraper3{
+	margin-top: 10px;
+	width: 100%;
+	max-width: 480px;
+	position: relative;
+}
+
+.map-wraper2{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 100%;
+	margin-top: 10px;
+	max-width: 480px
+}
+
+.map{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	border: 5px solid rgb(200,200,200)
+}
+/*------FIM DA SECTION4------*/
+
+/*------FOOTER------*/
+footer{
+	padding: 40px 2%;
+	background-color: #192123;
+	color: white;
+}
+
+footer p:nth-of-type(1){
+	float: left;
+	font-size: 15px;
+}
+
+footer p:nth-of-type(2){
+	float: right;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 830px){
+	section.section1{
+		height: auto;
+		padding: 40px 2%;
+		text-align: center;
+	}
+
+	.text-section1{
+		float: none;
+		margin-top: 0;
+		position: static;
+		width: 100%;
+		display: inline-block;
+		padding-left: 0;
+	}
+
+	.text-section1 ul{
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.text-section1 ul li{
+		float: none;
+		text-align: left;
+		position: relative;
+		left: 10px; 
+	}
+
+	.botao1{
+		display: inline-block;
+		width: 200px;
+	}
+
+	.device-section1{
+		display: none;
+	}
+
+	.section2{
+		padding: 0px 2%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	header{
+		padding: 30px 2%;
+		width: 100%;
+		height: auto;
+		min-height: 90vh;
+	}
+
+	nav.desktop-menu{
+		display: none;
+	}
+
+	nav.mobile-menu{
+		display: block;
+	}
+
+	.chamada1{
+		max-width: none;
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 200px 0;
+	}
+
+	.chamada1 h2{
+		font-size: 30px;
+		color: white;
+		font-weight: bold;
+		padding: 0 3%;
+	}
+
+	.chamada1 p{
+		font-size: 15px;
+		margin-top: 17px;
+		color: white;
+	}
+
+	section.section4 .container{
+		text-align: center;
+	}
+
+	.form{
+		width: 100%;
+		float: none;
+	}
+
+	.form p{
+		display: inline-block;
+	}
+
+	.map-wraper{
+		padding: 0 10%;
+		width: 100%;
+		margin-top: 20px;
+		float: none;
+	}
+
+	.map-wraper3{
+		margin-top: 10px;
+		width: 80%;
+		padding-top: 80%;
+		max-width: none;
+		position: relative;
+		display: inline-block;
+	}
+
+	.map-wraper2{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding-top: 0;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 620px){
+
+	.part1{
+		width: 100%;
+		padding: 40px 0;
+	}
+
+	.part2{
+		width: 100%;
+		padding: 40px 0;
+	}
+
+	.section2 img{
+		margin-top: 20px;
+		top: 16px;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p:nth-of-type(1){
+		float: none;
+	}
+
+	footer p:nth-of-type(2){
+		float: none;
+	}
+
+}
