@@ -17,7 +17,7 @@ $(function(){
 
 
 		$('html,body').animate({'scrollTop':offSetTop});
-		$('.mobile-menu a').css('color','#ccc');
+		$('.mobile-menu a').css('color','#575757');
 		$(this).css('color','black');
 		return false;
 	});
